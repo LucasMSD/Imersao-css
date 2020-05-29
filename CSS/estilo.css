@@ -1,0 +1,37 @@
+body {
+    background-image: url('../images/daora.jpg');
+}
+
+a {
+    color: wheat;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    background-color: rgb(50, 58, 55);
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    background-color: rgb(122, 81, 81);
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.site-title,
+.site-subtitle {
+    text-align: center;
+    color: brown;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
